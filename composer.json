@@ -1,0 +1,27 @@
+{
+  "name": "naucon/command",
+  "description": "description_text",
+  "keywords": ["command", "pattern"],
+  "homepage": "https://github.com/naucon/Command",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sven Sanzenbacher"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "naucon/processor": "~1.0",
+    "naucon/registry": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {"Naucon\\Command\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Naucon\\Command\\Tests\\": "tests"}
+  }
+}
